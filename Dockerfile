@@ -1,5 +1,5 @@
 # Based on anapsix/alpine-java
-FROM anapsix/alpine-java:8u181b13_jdk
+FROM anapsix/alpine-java:8u201b09_server-jre_nashorn
 
 ENV XMAGE_DOCKER_SERVER_ADDRESS="0.0.0.0" \
     XMAGE_DOCKER_PORT="17171" \
